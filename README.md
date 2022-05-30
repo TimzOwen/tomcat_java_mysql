@@ -225,7 +225,7 @@ sudo service mysql status
 - [Youtube Installation guide tutorial Timz owen [mysql5.6] ](https://youtu.be/kTtxQdYoluo)
 
 
-<img src="/screenshot/mysql.png" width="450"/> <img src="/screenshot/tomcat.png" width="450"/>
+<img src="/screenshot/mysql.png" width="400"/> <img src="/screenshot/tomcat.png" width="400"/>
   
 -  [Youtube Installation guide tutorial Timz owen [Tomcat / Java] ](https://youtu.be/nf8h4Y5a9C0)
 
