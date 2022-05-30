@@ -229,5 +229,5 @@ sudo service mysql status
   
 -  [Youtube Installation guide tutorial Timz owen [Tomcat / Java] ](https://youtu.be/nf8h4Y5a9C0)
 
- *<sub>cc: borrowed from HealthIT & Palladium developers Original guide.*</sub>
+ <sub> &copy;HealthIT & Palladium developers </sub>
 
