@@ -106,7 +106,7 @@ sudo nano /etc/default/tomcat9
 ``` 
 Then uncomment and add Java_home path [N:B-> make sure you copy your path, dont paste] check the video liked below.
 
-<img src="/screenshot/javahome.png" width="600"/>
+<img src="/screenshot/javahome.png" width="800"/>
 
 ```
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk  
