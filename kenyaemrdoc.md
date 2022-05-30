@@ -1,0 +1,1 @@
+# Installing Tomcat, Java 8 & mySql 5.6 Ubuntu 20
