@@ -212,14 +212,14 @@ sudo service mysql restart
 sudo service mysql status
 ```
 
-
-<img src="art/1.png" width="200"/> <img src="art/2.png" width="200"/>
-
 ### Reference
 
 - [Youtube Installation guide tutorial Timz owen [mysql5.6] ](https://youtu.be/kTtxQdYoluo)
+
+
+<img src="mysql.png" width="300"/> <img src="tomcat.png" width="300"/>
   
 -  [Youtube Installation guide tutorial Timz owen [Tomcat / Java] ](https://youtu.be/nf8h4Y5a9C0)
 
- *<sub>cc: borrowed from HealthIT developers Original guide.*</sub>
+ *<sub>cc: borrowed from HealthIT & Palladium developers Original guide.*</sub>
 
