@@ -61,7 +61,7 @@ sudo nano /etc/tomcat9/server.xml
 ```  
 Set the http connector to 200MB .[below connector]
 
-<img src="connector.png" width="300"/>
+<img src="/screenshot/connector.png" width="300"/>
 
 ```
 maxPostSize= "209715200"
@@ -70,7 +70,7 @@ relaxedQueryChars="[,]"
 ```  
 
 Multipart config. [open terminal and run]
-<img src="multipart.png" width="300"/>
+<img src="/screenshot/multipart.png" width="300"/>
 
 ```
 sudo nano /usr/share/tomcat9-admin/manager/WEB-INF/web.xml
@@ -106,7 +106,7 @@ sudo nano /etc/default/tomcat9
 ``` 
 Then uncomment and add Java_home path [N:B-> make sure you copy your path, dont paste] check the video liked below.
 
-<img src="javahome.png" width="300"/>
+<img src="/screenshot/javahome.png" width="300"/>
 
 ```
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk  
@@ -225,7 +225,7 @@ sudo service mysql status
 - [Youtube Installation guide tutorial Timz owen [mysql5.6] ](https://youtu.be/kTtxQdYoluo)
 
 
-<img src="mysql.png" width="300"/> <img src="tomcat.png" width="300"/>
+<img src="/screenshot/mysql.png" width="300"/> <img src="/screenshot/tomcat.png" width="300"/>
   
 -  [Youtube Installation guide tutorial Timz owen [Tomcat / Java] ](https://youtu.be/nf8h4Y5a9C0)
 
