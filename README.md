@@ -60,6 +60,9 @@ sudo nano /etc/tomcat9/server.xml
 
 ```  
 Set the http connector to 200MB .[below connector]
+
+<img src="connector.png" width="300"/>
+
 ```
 maxPostSize= "209715200"
 URIEncoding="UTF-8"
@@ -67,6 +70,8 @@ relaxedQueryChars="[,]"
 ```  
 
 Multipart config. [open terminal and run]
+<img src="multipart.png" width="300"/>
+
 ```
 sudo nano /usr/share/tomcat9-admin/manager/WEB-INF/web.xml
 ```  
@@ -100,6 +105,9 @@ Optimize Tomcat: Run the command
 sudo nano /etc/default/tomcat9
 ``` 
 Then uncomment and add Java_home path [N:B-> make sure you copy your path, dont paste] check the video liked below.
+
+<img src="javahome.png" width="300"/>
+
 ```
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk  
 ``` 
