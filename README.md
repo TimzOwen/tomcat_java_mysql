@@ -8,7 +8,7 @@
 Run the following commands to install java jdk 8 .
 
 ```
-sudo apt get update
+sudo apt-get update
 ```         
 
 ```
