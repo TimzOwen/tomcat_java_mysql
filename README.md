@@ -108,9 +108,10 @@ Then uncomment and add Java_home path [N:B-> make sure you copy your path, dont 
 
 <img src="/screenshot/javahome.png" width="800"/>
 
-```
-JAVA_HOME=/usr/lib/jvm/java-8-openjdk  
-``` 
+use pwd to print your java_home. example, mine is:
+
+'''JAVA_HOME=/usr/lib/jvm/java-8-openjdk  // this is na exmple'''
+ 
 Still on the same file, add this below Java_opts 
 NB:Your machine should be 8G RAM , otherwise customize to fit your RAM size.
 ```
@@ -126,7 +127,7 @@ sudo chmod -R 755 /var/lib/OpenMRS*
 ``` 
 Redirect logs to catalina : Run the command
 ```
-/lib/systemd/system/tomcat9.service
+sudo nano /lib/systemd/system/tomcat9.service
 ``` 
 Then comment out the line:
 
