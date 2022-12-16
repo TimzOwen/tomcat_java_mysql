@@ -221,6 +221,101 @@ sudo service mysql restart
 sudo service mysql status
 ```
 
+## System upgrade on already existing facilities.
+
+First make sure to make a backup database. [replace password and username and dump]
+
+By default the dump database will be store in /Home/ directory
+```
+sudo mysqldump -uUSER -pPASSWORD openmrs > FACILITYDUMPDATABASE.sql
+
+```
+
+Using the provided upgrading folder by the Lead Developer,
+
+locate the setup script.sh
+
+To make the script executable, run the command. [setup_script is the script name]
+
+```
+sudo chmod +x setup_script.sh
+```
+
+Then, run the script 
+
+```
+./setup_script.sh
+```
+
+N/B: if you get an error on openmrs passwrd, change to reflect you server database password
+
+### Confirm Modules and War file.
+
+locate to modules folder and make sure they are owned by tomcat. if not then change them.
+
+```
+cd /var/lib/OpenMRS/modules
+```
+
+Then check to make sure they are owned by tomcat . Run..
+
+```
+ll
+```
+
+if not then change using....
+
+```
+sudo chown tomcat:tomcat *.omod 
+```
+
+Also give read write permissions to the modules 
+
+```
+sudo chmod 755 *.omod
+```
+
+Confirm also that openmrs war file if owned by tomcat.
+
+```
+cd /var/lib/tomcat/webapps
+```
+
+if not.....
+
+```
+sudo chown tomcat:tomcat openmrs.war
+```
+
+### Source back Facility database. - Optional if the databse is working correctly.
+
+Login to sql
+
+```
+sudo mysql -uUSER -pPASSSWORD 
+```
+
+check availbale databses...
+
+```
+show databses;
+```
+
+Select openmrs...
+
+```
+use openmrs
+```
+
+now source back the facility database...
+
+```
+source /location/to/your/backup/database
+```
+
+Thank you. 
+
+
 ### Reference
 
 - [Youtube Installation guide tutorial Timz owen [mysql5.6] ](https://youtu.be/kTtxQdYoluo)
@@ -230,5 +325,5 @@ sudo service mysql status
   
 -  [Youtube Installation guide tutorial Timz owen [Tomcat / Java] ](https://youtu.be/nf8h4Y5a9C0)
 
- <sub> &copy;HealthIT & Palladium developers </sub>
+ <sub> &copy;HealthIT </sub>
 
