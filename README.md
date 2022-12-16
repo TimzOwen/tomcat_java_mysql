@@ -3,7 +3,7 @@
 #### installation commands for ubuntu 20 .
 
 
-## Instalation commands for Java 
+## Installation commands for Java 
 
 Run the following commands to install java jdk 8 .
 
