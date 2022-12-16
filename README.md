@@ -3,7 +3,7 @@
 #### installation commands for ubuntu 20 .
 
 
-## Instalation commands for Java 
+## Installation commands for Java 
 
 Run the following commands to install java jdk 8 .
 
@@ -154,7 +154,7 @@ sudo mkdir /etc/systemd/system/tomcat9.service.d
 
 Create blank file in the directory and name it logging-allow.conf, run:
 ```
-sudo nano logging-allow.conf
+sudo nano /etc/systemd/system/tomcat9.service.d/logging-allow.conf
 ```
 Once created, add this: and save changes as specified ealier.
 ```
