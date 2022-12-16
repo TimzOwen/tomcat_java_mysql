@@ -298,13 +298,13 @@ sudo mysql -uUSER -pPASSSWORD
 check availbale databses...
 
 ```
-show databses;
+show databases;
 ```
 
 Select openmrs...
 
 ```
-use openmrs
+use openmrs;
 ```
 
 now source back the facility database...
