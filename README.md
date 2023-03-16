@@ -93,7 +93,7 @@ Next, we add roles to tomcat users: run the command below
 ```
 sudo nano /etc/tomcat9/tomcat9-users.xml
 ``` 
-Then add the following lines, Rem to change the password to mactch your comp passwrd
+Then add the following lines, Remember to change the password to mactch your computer password
 ```
 <role rolename=”tomcat”/>
 <role rolename=”manager-gui”/>
@@ -156,7 +156,7 @@ Create blank file in the directory and name it logging-allow.conf, run:
 ```
 sudo nano /etc/systemd/system/tomcat9.service.d/logging-allow.conf
 ```
-Once created, add this: and save changes as specified ealier.
+Once created, add this: and save changes as specified earlier.
 ```
 ReadWritePaths=/var/lib/OpenMRS
 ```
@@ -247,7 +247,7 @@ Then, run the script
 ./setup_script.sh
 ```
 
-N/B: if you get an error on openmrs passwrd, change to reflect you server database password
+N/B: if you get an error on openmrs password, change to reflect you server database password
 
 ### Confirm Modules and War file.
 
